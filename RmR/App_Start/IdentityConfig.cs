@@ -23,7 +23,7 @@ namespace RmR
         public async Task SendAsync(IdentityMessage message)
         {
             await configSendGridasync(message);
-            // Plug in your email service here to send an email.
+            //Plug in your email service here to send an email.
             //return Task.FromResult(0);
         }
         private async Task configSendGridasync(IdentityMessage message)
